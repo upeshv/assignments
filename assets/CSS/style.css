@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  background: #000;
+  margin: 0;
+}
+
+.wrapper__container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+
+header {
+  padding: 40px 0;
+  border-bottom: 2px solid #ff5c5c;
+}
+
+/* 
+******* Menu Section **********
+*/
+
+.wrapper__menu {
+  list-style: none;
+  text-align: center;
+}
+
+.wrapper__menu__list {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.wrapper__menu__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wrapper__menu__link:hover, .wrapper__menu__link.active {
+  color: rgb(175, 12, 240);
+}
+
+
+
+/* 
+******* Middle Section **********
+*/
+
+.wrapper__image {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+
+/* 
+******* Grid CSS **********
+*/
+
+.float__inner-block {
+  min-height: 500px;
+}
+
+.float__vertically-middle {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.float__image-block {
+  width: 300px;
+  height: 300px;
+  margin: 0 10px;
+  float: left;
+}
+
+
+
+/* 
+******* FlexBox CSS **********
+*/
+
+.flexbox__vertically-middle {
+  display: flex;
+  min-height: 500px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+
+/* 
+******* Grid CSS **********
+*/
+
+.grid__vertically-middle {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  padding: 0 10px;
+  align-content: center;
+  min-height: 500px;
+}
+
+
+
+/* Fooer Section */
+footer {
+  padding: 40px 0;
+  border-top: 2px solid #ff5c5c;
+  text-align: center;
+}
