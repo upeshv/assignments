@@ -14,6 +14,13 @@
     height: 230px;
   }
 
+  .float__image-block:hover .float__hover-block {
+    height: 230px;
+  }
+
+  .float__head {
+    margin: 80px 0 30px;
+  }
 
   /* 
   ******* FlexBox CSS **********
@@ -28,6 +35,24 @@
     justify-content: center;
   }
 
+  .flexbox__hover-block {
+    width: 0;
+    height: 230px;
+  }
+
+  .flexbox__image-block:hover .flexbox__hover-block {
+    width: 230px;
+  }
+
+
+  /* 
+  ******* Grid CSS **********
+  */
+
+  .grid__image-block:hover .grid__hover-block {
+    width: 230px;
+    height: 230px
+  }
 }
 
 @media screen and (max-width: 767px) {
