@@ -19,3 +19,7 @@ Category <br />
 Float Layout - Top slide animation using CSS. <br />
 Flexbox Layout - Left slide animation using CSS. <br />
 Gird Layout - Both Left and Top slide animation using CSS. <br />
+
+## Third Task
+Shorting Images based on Name, Place, Date, Location. <br />
+Filtering Images based on Tag, Place and Month.
