@@ -57,9 +57,28 @@
 
 @media screen and (max-width: 767px) {
 
+  header {
+    padding: 20px 0;
+  }
+
+  .wrapper__head {
+    font-size: 21px;
+  }
+
+  .wrapper__menu__list {
+    margin: 0 5px;
+  }
+
   .wrapper__container {
     max-width: 760px;
     margin: 0 auto;
+  }
+
+  .wrapper__left-block, .wrapper__right-block {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
   }
     
   /* 
