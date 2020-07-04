@@ -76,7 +76,7 @@
 
   .wrapper__left-block, .wrapper__right-block {
     float: none;
-    width: 100%;
+    width: auto;
     text-align: left;
     padding: 15px;
   }
