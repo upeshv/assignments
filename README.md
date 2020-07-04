@@ -23,3 +23,7 @@ Gird Layout - Both Left and Top slide animation using CSS. <br />
 ## Third Task
 Shorting Images based on Name, Place, Date, Location. <br />
 Filtering Images based on Tag, Place and Month.
+
+## Third Task
+Add modal on image click. <br />
+Also add slider with next and previous slide functionality with both slider arrow and with keyboard left and right navigation.
