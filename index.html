@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignments</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/responsive.css">
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <section class="wrapper">
+      <header>
+        <div class="wrapper__container">
+          <div class="wrapper__left-block">
+            <h2 class="wrapper__head">Sort :</h2>
+            <ul class="wrapper__menu">
+              <li class="wrapper__menu__list"><a href="javascript:void(0);" id="sortName" class="wrapper__menu__link">Name</a></li>
+              <li class="wrapper__menu__list"><a href="javascript:void(0);" id="sortTag" class="wrapper__menu__link">Tag</a></li>
+              <li class="wrapper__menu__list"><a href="javascript:void(0);" id="sortPlace" class="wrapper__menu__link">Place</a></li>
+              <li class="wrapper__menu__list"><a href="javascript:void(0);" id="sortDate" class="wrapper__menu__link">Date</a></li>
+            </ul>
+          </div>
+          <div class="wrapper__right-block">
+            <h2 class="wrapper__head">Filter :</h2>
+            <ul class="wrapper__menu" id="filterList">
+              <li class="wrapper__menu__list" id="filterTag">Tag
+                <ul class="wrapper__menu__submenu">
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Animal</a></li>
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Bird</a></li>
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Fish</a></li>
+                </ul>
+              </li>
+              <li class="wrapper__menu__list" id="filterPlace">Place
+                <ul class="wrapper__menu__submenu">
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Mumbai</a></li>
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Delhi</a></li>
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Kolkata</a></li>
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Banars</a></li>
+                </ul>
+              </li>
+              <li class="wrapper__menu__list" id="filterMonth">Month
+                <ul class="wrapper__menu__submenu">
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Jan</a></li>
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">Feb</a></li>
+                  <li class="wrapper__menu__sublist"><a href="javascript:void(0);" class="wrapper__menu__sublink">April</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </header>
+      <section class="float__inner-block">
+        <div class="wrapper__container">
+          <div class="float__vertically-middle" id="sortFilterBlock">
+
+            <div class="float__image-block" data-name="Kingfisher" data-tag="Bird" data-loc="Mumbai" data-date="2020-02-02" data-month="Feb" data-index="1">
+              <img src="" data-img="assets/images/kingfisher.jpg" alt="lion" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Bird</span>
+                <h2 class="float__head">Kingfisher</h2>
+                <span class="float__loc">Mumbai</span>
+                <span class="float__date">02-02-2020</span>
+              </div>
+            </div>
+            <div class="float__image-block" data-name="Owls" data-tag="Bird" data-loc="Delhi" data-date="2020-01-02" data-month="Jan" data-index="2">
+              <img src="" data-img="assets/images/owls.jpg" alt="owls" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Bird</span>
+                <h2 class="float__head">Owls</h2>
+                <span class="float__loc">Delhi</span>
+                <span class="float__date">02-01-2020</span>
+              </div>
+            </div>
+            <div class="float__image-block" data-name="Parrots" data-tag="Bird" data-loc="Mumbai" data-date="2020-04-02"  data-month="April" data-index="3">
+              <img src="" data-img="assets/images/parrots.jpg" alt="parrots" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Bird</span>
+                <h2 class="float__head">Parrots</h2>
+                <span class="float__loc">Mumbai</span>
+                <span class="float__date">02-04-2020</span>
+              </div>
+            </div>
+
+            <div class="float__image-block" data-name="Dolphin" data-tag="Fish" data-loc="Banars" data-date="2020-02-28"  data-month="Feb" data-index="4">
+              <img src="" data-img="assets/images/Dolphin.jpg" alt="Dolphin" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Fish</span>
+                <h2 class="float__head">Dolphin</h2>
+                <span class="float__loc">Banars</span>
+                <span class="float__date">28-02-2020</span>
+              </div>
+            </div>
+            <div class="float__image-block" data-name="Shark" data-tag="Fish" data-loc="Banars" data-date="2020-04-15" data-month="April" data-index="5">
+              <img src="" data-img="assets/images/shark.jpg" alt="shark" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Fish</span>
+                <h2 class="float__head">Shark</h2>
+                <span class="float__loc">Banars</span>
+                <span class="float__date">15-04-2020</span>
+              </div>
+            </div>
+            <div class="float__image-block" data-name="Guppy" data-tag="Fish" data-loc="Kolkata" data-date="2020-04-28" data-month="April" data-index="6">
+              <img src="" data-img="assets/images/guppy.jpg" alt="guppy" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Fish</span>
+                <h2 class="float__head">Guppy</h2>
+                <span class="float__loc">Kolkata</span>
+                <span class="float__date">28-04-2020</span>
+              </div>
+            </div>
+
+            <div class="float__image-block" data-name="Lion" data-tag="Animal" data-loc="Kolkata" data-date="2020-02-15"  data-month="Feb" data-index="7">
+              <img src="" data-img="assets/images/lion.png" alt="lion" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Animal</span>
+                <h2 class="float__head">Lion</h2>
+                <span class="float__loc">Kolkata</span>
+                <span class="float__date">15-02-2020</span>
+              </div>
+            </div>
+            <div class="float__image-block" data-name="Cheeta" data-tag="Animal" data-loc="Delhi" data-date="2020-01-15" data-month="Jan"  data-index="8">
+              <img src="" data-img="assets/images/cheeta.jpg" alt="cheeta" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Animal</span>
+                <h2 class="float__head">Cheeta</h2>
+                <span class="float__loc">Delhi</span>
+                <span class="float__date">15-01-2020</span>
+              </div>
+            </div>
+            <div class="float__image-block" data-name="Tiger" data-tag="Animal" data-loc="Kolkata" data-date="2020-01-28" data-month="Jan" data-index="9">
+              <img src="" data-img="assets/images/tiger.jpg" alt="tiger" class="wrapper__image">
+              <div class="float__hover-block">
+                <span class="float__cat">Animal</span>
+                <h2 class="float__head">Tiger</h2>
+                <span class="float__loc">Kolkata</span>
+                <span class="float__date">28-01-2020</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="wrapper__container">
+          <p>Coypright BS-Assignments 2020</p>
+        </div>
+      </footer>
+    </section>
+    <!-- Modal Block -->
+    <div class="imageModal">
+      <div class="slideParams">
+        <span class="close">&times;</span>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+      <div class="imageModalInner">
+
+      </div>
+    </div>
+    
+  </body>
+</html>
