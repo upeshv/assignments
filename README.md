@@ -1,4 +1,4 @@
-# Vanilla JS Script
+# Assignments
 
 ## First Task
 It has 3 pages float layout, flexbox layout and grid layout.
